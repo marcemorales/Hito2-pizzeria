@@ -13,14 +13,16 @@ Validaciones mínimas:
 ## Cómo ejecutar
 1. Abre una terminal en la carpeta del proyecto.
 2. Ejecuta:
+```bash
    npm install
    npm run dev
+   ```
 3. Abre la URL que te muestra Vite (por defecto http://localhost:5173).
 
 
 ## Alternar entre Login y Register
-En `src/App.jsx` esta comentado `Home` y el form que no se quiera probar.
-Visible Login. Descomentar `RegisterPage` y comentar `LoginPage`
+En `src/App.jsx` se deja **comentado** `Home` y el form que no queramos probar.
+Por defecto está visible **Login**. Hay que Descomentar `RegisterPage` y comentar `LoginPage`
 para probar el registro.
 
 Se observa:
